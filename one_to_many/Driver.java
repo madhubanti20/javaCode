@@ -16,7 +16,7 @@ public class Driver {
 		boolean flag = true;
 		
 		while(flag) {
-			System.out.println("Enter 1 for add post\nEnter 2 for display\nEnter 3 for exist\nEnter 4 for removing post\nEnter 5 for update post");
+			System.out.println("Enter 1 for add post\nEnter 2 for display\nEnter 3 for exist\nEnter 4 for removing\nEnter 5 for update.");
 			
 			int choice = sc.nextInt();
 			switch(choice) {
