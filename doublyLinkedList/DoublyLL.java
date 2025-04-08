@@ -152,8 +152,10 @@ public class DoublyLL {
 		}
 		
 		if(pos2 == count) {
+			Node temp = tail;
 			tail = tail.prev;
 			tail.next = null;
+			temp.prev = null;
 			count--;
 			return;
 			
